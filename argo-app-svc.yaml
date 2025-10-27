@@ -1,0 +1,2 @@
+NAME       TYPE       CLUSTER-IP     EXTERNAL-IP   PORT(S)        AGE
+argo-app   NodePort   10.99.226.73   <none>        80:30478/TCP   30m
