@@ -9,10 +9,10 @@ spec:
   source:
     repoURL: https://github.com/manibratam1221/gitops-argo.git
     targetRevision: main
-    path: node-app
+    path: argo-app
   destination: 
     server: https://kubernetes.default.svc
-    namespace: node-app
+    namespace: argo-app
 
   syncPolicy:
     syncOptions:
@@ -20,5 +20,4 @@ spec:
 
     automated:
       selfHeal: true
-      prune: trueNAME       READY   UP-TO-DATE   AVAILABLE   AGE
-argo-app   1/1     1            1           34m
+      prune: true
